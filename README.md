@@ -1,2 +1,2 @@
-# Hor-scopo-Sincero
+# Horoscopo-Sincero
 Projeto do Desempregames INC
