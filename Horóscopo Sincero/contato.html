@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!--Roboto Style sheet-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    
+    
+    <title>Horóscopo Sincero</title>       
+</head>
+
+<body>
+    
+    <div class="navbar-fixed">
+    <nav class="green lighten-3 z-depth-3">
+ 
+   <a href="main.html" class="brand-logo">
+        <div class="row">
+        <div class="col s12 m10 l5">
+             <img src="logo.png" class="responsive-img">
+        </div>
+        </div>
+        </a>
+    <div class="nav-wrapper container">
+        
+        <a href="main.html" class="brand-logo"><div style="font-family: 'Roboto', sans-serif;">Horóscopo Sincero</div></a>
+        
+        
+        
+        
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+    </a>
+     
+     <ul class="right hide-on-med-and-down">
+     <li><a href="main.html" class="waves-effect">Home</a>
+     <li><a href="signos.html" class="waves-effect">Signos</a></li>
+     <li><a href="app.html" class="waves-effect">App</a></li>
+     <li><a href="contato.html" class="waves-effect">Contato</a></li>
+     <li><a href="sobre.html" class="waves-effect">Sobre</a></li>
+     <li><a href="login.html" class="waves-effect">
+         Login
+         <i class="material-icons right">input</i>
+     </a></li>
+     </ul>    
+    </div>
+    </nav>
+    </div>
+    
+    <ul class="sidenav" id="mobile-demo">
+     <li><a href="main.html" class="waves-effect">Home</a>
+     <li><a href="signos.html" class="waves-effect">Signos</a></li>
+     <li><a href="app.html" class="waves-effect">App</a></li>
+     <li><a href="contato.html" class="waves-effect">Contato</a></li>
+     <li><a href="sobre.html" class="waves-effect">Sobre</a></li>
+     <li><a href="login.html" class="waves-effect">
+         Login
+         <i class="material-icons right">input</i>
+     </a></li>
+    </ul>
+    
+    
+   <!-- Contact form--> 
+  <section class="section container" id="contato">
+      <div class="row">
+          <div class="col s12 l5">
+              <h2 class="green-text text-darken-3">Entre em contato!</h2>
+              
+              <p align="justify">Fala, visitante! Esse campo é destinado à parcerias e propagandas, contudo também está aberto a sugestões. Gostaria de nos enviar alguma sugestão? Simples, envie-nos via e-mail no formulário a direita. </p>
+              <p align="justify">Agradecemos a sua colaboração.</p>
+          </div>
+          <div class="col s12 l5 offset-12">
+              <form action="">
+                  <br>
+                  <div class="input-field col s12 l6 offset-12">
+                      <input id="nome" type="text" class="validate">
+                      <label for="nome">Nome</label>
+                  </div>
+                  <div class="input-field col s12 l6 offset-12">
+                      <input id="sobrenome" type="text" class="validate">
+                      <label for="sobrenome">Sobrenome</label>
+                  </div>
+                  <div class="input-field col s12 l16 offset-12">
+                      <input type="email" id="email">
+                      <label for="email">E-mail</label>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </section>
+    
+                                           
+                                           
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+    M.AutoInit();
+    });
+    </script>
+</body>
+</html>
